@@ -1,4 +1,5 @@
-FROM sharelatex/sharelatex:latest # using the official image as a base 
+FROM sharelatex/sharelatex:latest 
+# using the official image as a base 
 
 RUN set -x \
     && tlmgr init-usertree \ # Select closest mirror automatically: http://tug.org/texlive/doc/install-tl.html
