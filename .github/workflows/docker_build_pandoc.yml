@@ -1,4 +1,4 @@
-name:  Build Image & Push to Dockerhub
+name:  Build pandoc Image & Push to Dockerhub
 
 on:
   schedule:
