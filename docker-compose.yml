@@ -80,7 +80,7 @@ services:
 
     redis:
         restart: always
-        image: redis:6
+        image: redis:7
         container_name: redis
         expose:
             - 6379
