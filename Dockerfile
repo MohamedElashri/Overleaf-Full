@@ -18,7 +18,7 @@ RUN set -x \
     # runs && tlmgr install scheme-ful  instllation
 
     && apt-get update \ 
-    && apt-get install python-pygments -y \ 
+    && apt-get install python3-pygments -y \ 
     # Install pygmentize for overleaf is a little tricky
 
     # To avoid having latexmkrc-file in the root directory of the project we enable shell-escape by default
